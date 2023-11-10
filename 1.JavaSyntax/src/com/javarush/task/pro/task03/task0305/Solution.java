@@ -12,14 +12,18 @@ public class Solution {
         int number = sc.nextInt();
         int number2 = sc.nextInt();
         int number3 = sc.nextInt();
+        boolean numberEquals1 = number == number2 && number != number3;
+        boolean numberEquals2 = number == number3 && number != number2;
+        boolean numberEquals3 = number2 == number3 && number2 != number;
+        boolean numberEquals4 = number == number2 && number == number3;
 
-        if (number == number2 && number != number3)
+        if (numberEquals1)
             System.out.println(number + " " + number2);
-        else if (number == number3 && number != number2)
+        else if (numberEquals2)
             System.out.println(number + " " + number3);
-        else if (number2 == number3 && number2 != number)
+        else if (numberEquals3)
             System.out.println(number2 + " " + number3);
-        else if (number == number2 && number == number3)
+        else if (numberEquals4)
             System.out.println(number + " " + number2 + " " + number3);
 
     }
