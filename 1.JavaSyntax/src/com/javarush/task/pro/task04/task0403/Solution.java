@@ -9,19 +9,19 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int sum = 0;
         boolean exit = false;
-        while (!exit) {
-            if (sc.hasNextInt()) {
-                sum = sum + sc.nextInt();
-            } else if (sc.hasNextLine()) {
-                exit = sc.nextLine().equals("ENTER");
+        int sum = 0;
+        while (sc.hasNextInt()) {
+            int number = sc.nextInt();
+            if (!exit) {
+                sum = number + sum;
+             } else {
+                exit = sc.equals("ENTER");
             }
 
 
         }
         System.out.println(sum);
-
 
     }
 }
