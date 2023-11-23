@@ -11,11 +11,13 @@ public class Solution {
         String text = " любит меня.";
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
-        int n = 1;
-        while (n <= 10) {
-            System.out.println(name + " " + text);
-            n++;
+        int a = 0;
+        while (a < 10) {
+            System.out.println(name + text);
+            a++;
+
         }
+
 
     }
 }
