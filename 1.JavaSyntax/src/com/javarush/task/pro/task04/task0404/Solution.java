@@ -6,17 +6,16 @@ package com.javarush.task.pro.task04.task0404;
 
 public class Solution {
     public static void main(String[] args) {
-        int a = 0;
-        while (a < 5) {
+        int height = 0;
+        while (height < 5) {
 
-            int b = 0;
-            while (b < 10) {
+            int width = 0;
+            while (width < 10) {
                 System.out.print("Q");
-                b++;
+                width++;
             }
-
             System.out.println();
-            a++;
+            height++;
         }
 
 
