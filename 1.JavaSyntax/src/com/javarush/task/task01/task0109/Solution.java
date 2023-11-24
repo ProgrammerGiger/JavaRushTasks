@@ -6,7 +6,7 @@ package com.javarush.task.task01.task0109;
 
 public class Solution {
     public static void main(String[] args) {
-        int a = 50;
-        int b = 30;
+        int a = 150;
+        int b = 2345400;
     }
 }
