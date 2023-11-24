@@ -7,10 +7,10 @@ package com.javarush.task.pro.task02.task0201;
 public class Solution {
 
     public static void main(String[] args) {
-        int intValue = 5;
-        int numericValue = 10;
-        int size = 15;
-        int number = 20;
+        int intValue = 1000;
+        int numericValue = 100;
+        int size = 154;
+        int number = 20232;
 
     }
 }
