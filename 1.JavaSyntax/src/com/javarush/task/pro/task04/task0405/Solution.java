@@ -6,22 +6,29 @@ package com.javarush.task.pro.task04.task0405;
 
 public class Solution {
     public static void main(String[] args) {
+        int height = 1;
+        while (height <= 10) {
 
-        int height = 0;
-        while (height < 10) {
-            int width = 0;
-            while (width < 20) {
-                if (height == 0 || height == 9) {
+            int width = 1;
+            while (width <= 20) {
+                if (height == 1 || height == 10) {
                     System.out.print("Б");
-                } else if (width == 0 || width == 19) {
-                    System.out.print("Б");
-                } else {
-                    System.out.print(" ");
                 }
-                width++;
-            }
+                 else if (width == 1 || width == 20){
+                    System.out.print("Б");
+
+                } else {
+                        System.out.print(" ");
+                    }
+
+                 width++;
+                }
             System.out.println();
             height++;
-        }
+            }
     }
 }
+
+
+
+
