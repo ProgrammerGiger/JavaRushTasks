@@ -12,7 +12,7 @@ public class Solution {
         int max = Integer.MIN_VALUE;
         while (sc.hasNextInt()) {
             int num = sc.nextInt();
-            if (num % 2 == 0 && num > max) {
+            if (num > max && (num % 2) == 0) {
                 max = num;
             }
         }
