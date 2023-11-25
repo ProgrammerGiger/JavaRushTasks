@@ -8,14 +8,14 @@ public class Solution {
     public static void main(String[] args) {
         int num = 0;
         int sum = 0;
-        while (num < 100) {
+        while (num <= 100 ) {
             num++;
-            if ((num % 3) == 0)
+            sum = num + sum;
+            if ((sum % 3) == 0)
                 continue;
-            sum = sum + num;
-        }
-        System.out.println(sum);
+                System.out.println(sum);
 
+        }
 
     }
 }
