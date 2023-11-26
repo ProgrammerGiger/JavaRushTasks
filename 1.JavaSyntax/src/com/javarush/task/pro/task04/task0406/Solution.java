@@ -13,9 +13,10 @@ public class Solution {
             String text = sc.nextLine();
             if (text.equals("enough")) {
                 break;
-            } else {
-                System.out.println(text);
+
             }
+            System.out.println(text);
+
         }
 
     }
