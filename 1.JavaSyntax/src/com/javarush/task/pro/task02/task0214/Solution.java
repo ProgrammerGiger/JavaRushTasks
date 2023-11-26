@@ -9,16 +9,13 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        String name2 = sc.nextLine();
-        String name3 = sc.nextLine();
-
-        System.out.println(name3);
-        System.out.println(name2.toUpperCase());
-        System.out.println(name.toLowerCase());
-
+        Scanner scan = new Scanner(System.in);
+        String string1 = scan.nextLine().toLowerCase();
+        String string2 = scan.nextLine().toUpperCase();
+        String string3 = scan.nextLine();
+        System.out.println(string3);
+        System.out.println(string2);
+        System.out.println(string1);
 
     }
 }
