@@ -8,16 +8,15 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         while (true) {
-            String text = sc.nextLine();
+            String text = scan.nextLine();
             if (text.equals("enough")) {
                 break;
-
             }
             System.out.println(text);
-
         }
+
 
     }
 }
