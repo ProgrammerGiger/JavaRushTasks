@@ -8,18 +8,28 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int min = Integer.MAX_VALUE;
-        int secondMin = Integer.MAX_VALUE;
-        while (sc.hasNextInt()) {
-            int number = sc.nextInt();
-            if (number < min) {
+        Scanner scan = new Scanner(System.in);
+        int min = scan.nextInt();
+        int secondMin = scan.nextInt();
+        if (min > secondMin) {
+            int tmp = min;
+            min = secondMin;
+            secondMin = tmp;
+        }
+        while (scan.hasNextInt()) {
+            int num = scan.nextInt();
+            if (num == secondMin && num > min) {
+                secondMin = num;
+            } else if (num < min) {
                 secondMin = min;
-                min = number;
-            } else if (number > min && number < secondMin) {
-                secondMin = number;
+                min = num;
+            } else if (num < secondMin && num > min) {
+                secondMin = num;
+
             }
+
+
         }
         System.out.println(secondMin);
     }
-    }
+}
