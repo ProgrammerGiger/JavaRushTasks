@@ -8,16 +8,16 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int minValue = Integer.MAX_VALUE;
-        while (sc.hasNextInt()) {
-            int num = sc.nextInt();
-            if (num < minValue) {
-                minValue = num;
+        Scanner scan = new Scanner(System.in);
+        int min = scan.nextInt();
+        while (scan.hasNextInt()) {
+            int num = scan.nextInt();
+            if (num < min) {
+                min = num;
             }
 
         }
-        System.out.println(minValue);
+        System.out.println(min);
 
     }
 }
