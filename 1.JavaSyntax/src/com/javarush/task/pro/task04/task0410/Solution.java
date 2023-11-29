@@ -9,27 +9,19 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int min = scan.nextInt();
-        int secondMin = scan.nextInt();
-        if (min > secondMin) {
-            int tmp = min;
-            min = secondMin;
-            secondMin = tmp;
-        }
+        int min = Integer.MAX_VALUE;
+        int secondMin = Integer.MAX_VALUE;
         while (scan.hasNextInt()) {
             int num = scan.nextInt();
-            if (num == secondMin && num > min) {
-                secondMin = num;
-            } else if (num < min) {
+            if (num < min) {
                 secondMin = min;
                 min = num;
-            } else if (num < secondMin && num > min) {
+            } else if (num > min && num < secondMin) {
                 secondMin = num;
-
             }
-
 
         }
         System.out.println(secondMin);
+
     }
 }
