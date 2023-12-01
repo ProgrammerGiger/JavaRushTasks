@@ -9,15 +9,12 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         double glass = 0.5;
-        Scanner sc = new Scanner(System.in);
-        boolean bool = sc.nextBoolean();
-        if (bool == false) {
-            int down = (int)Math.floor(glass);
-            System.out.println(down);
-        } else if (bool == true) {
-            int up = (int)Math.ceil(glass);
-            System.out.println(up);
-
+        Scanner scan = new Scanner(System.in);
+        boolean text = scan.nextBoolean();
+        if (text == false) {
+            System.out.println((int)Math.floor(glass));
+        } else if (text == true) {
+            System.out.println((int)Math.ceil(glass));
         }
 
     }
