@@ -8,10 +8,11 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        long x = Math.round(num * 3.6);
-        System.out.println(x);
+        Scanner scan = new Scanner(System.in);
+        int windSpeed = scan.nextInt();
+        double converter = windSpeed * 3.6;
+        int rounding = (int)Math.round(converter);
+        System.out.println(rounding);
 
     }
 }
