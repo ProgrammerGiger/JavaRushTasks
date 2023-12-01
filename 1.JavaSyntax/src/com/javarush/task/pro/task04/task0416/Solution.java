@@ -8,11 +8,12 @@ Share a Coke
 
 public class Solution {
     public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
-       int countСan = sc.nextInt();
-       int countPeople = sc.nextInt();
-       double division = 1.0 * countСan / countPeople;
-        System.out.println(division);
+       Scanner scan = new Scanner(System.in);
+
+       int number1 = scan.nextInt();
+       int number2 = scan.nextInt();
+       double separation = (number1 * 1.0 / number2);
+        System.out.println(separation);
 
     }
 }
