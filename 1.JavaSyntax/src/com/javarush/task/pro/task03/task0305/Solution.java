@@ -8,10 +8,10 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        int number2 = sc.nextInt();
-        int number3 = sc.nextInt();
+        Scanner console = new Scanner(System.in);
+        int number = console.nextInt();
+        int number2 = console.nextInt();
+        int number3 = console.nextInt();
         boolean numberEquals1 = number == number2 && number != number3;
         boolean numberEquals2 = number == number3 && number != number2;
         boolean numberEquals3 = number2 == number3 && number2 != number;
