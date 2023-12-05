@@ -11,8 +11,8 @@ public class Solution {
     private static boolean isLow;
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        double bodyTemperature = scan.nextDouble();
+        Scanner console = new Scanner(System.in);
+        double bodyTemperature = console.nextDouble();
 
         if (bodyTemperature > 37) {
             System.out.println("температура тела высокая");
