@@ -10,10 +10,10 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
-        int num1 = console.nextInt();
-        int num2 = console.nextInt();
-        int num3 = console.nextInt();
+        int number1 = console.nextInt();
+        int number2 = console.nextInt();
+        int number3 = console.nextInt();
 
-        System.out.println((num1 + num2 + num3) / 3);
+        System.out.println((number1 + number2 + number3) / 3);
     }
 }
