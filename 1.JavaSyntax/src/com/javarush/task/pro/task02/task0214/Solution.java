@@ -10,12 +10,12 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
-        String phrase = console.nextLine();
-        String phrase2 = console.nextLine();
-        String phrase3 = console.nextLine();
+        String text = console.nextLine();
+        String text2 = console.nextLine();
+        String text3 = console.nextLine();
 
-        System.out.println(phrase3);
-        System.out.println(phrase2.toUpperCase());
-        System.out.println(phrase.toLowerCase());
+        System.out.println(text3);
+        System.out.println(text2.toUpperCase());
+        System.out.println(text.toLowerCase());
     }
 }
