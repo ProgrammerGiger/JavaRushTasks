@@ -11,10 +11,10 @@ public class Solution {
     private static final String TRIANGLE_NOT_EXISTS = "треугольник не существует";
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int length = sc.nextInt();
-        int length2 = sc.nextInt();
-        int length3 = sc.nextInt();
+        Scanner console = new Scanner(System.in);
+        int length = console.nextInt();
+        int length2 = console.nextInt();
+        int length3 = console.nextInt();
 
         boolean lengthLess = (length < (length2 + length3))
                 && (length2 < (length + length3))  &&
