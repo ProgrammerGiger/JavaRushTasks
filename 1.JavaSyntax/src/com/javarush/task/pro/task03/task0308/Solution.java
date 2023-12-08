@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int y = sc.nextInt();
+        Scanner console = new Scanner(System.in);
+        int x = console.nextInt();
+        int y = console.nextInt();
 
         boolean belonging = x > 0 && y > 0;
         boolean belonging2 = x < 0 && y > 0;
