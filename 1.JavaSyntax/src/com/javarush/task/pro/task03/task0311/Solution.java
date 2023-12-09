@@ -9,9 +9,9 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        double number1 = sc.nextDouble();
-        double number2 = sc.nextDouble();
+        Scanner console = new Scanner(System.in);
+        double number1 = console.nextDouble();
+        double number2 = console.nextDouble();
 
         if (Math.abs(number1 - number2) < 0.000001)
             System.out.println("числа равны");
