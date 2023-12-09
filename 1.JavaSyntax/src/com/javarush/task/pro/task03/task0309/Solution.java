@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int numberA = scanner.nextInt();
-        int numberB = scanner.nextInt();
+        Scanner console = new Scanner(System.in);
+        int numberA = console.nextInt();
+        int numberB = console.nextInt();
 
         int ternarn = numberA > numberB ? numberA : numberB;
         System.out.println(ternarn);
