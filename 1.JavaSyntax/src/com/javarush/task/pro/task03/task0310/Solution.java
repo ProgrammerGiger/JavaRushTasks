@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
+        Scanner console = new Scanner(System.in);
+        int number = console.nextInt();
 
         if (number < 5)
             System.out.println("число меньше 5");
