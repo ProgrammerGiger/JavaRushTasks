@@ -10,8 +10,8 @@ public class Solution {
     public static String secret = "AmIGo";
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String word = sc.nextLine();
+        Scanner console = new Scanner(System.in);
+        String word = console.nextLine();
 
         if (word.equalsIgnoreCase(secret))
         System.out.println("доступ разрешен");
