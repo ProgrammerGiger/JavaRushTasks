@@ -8,15 +8,15 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner console = new Scanner(System.in);
         boolean exit = false;
         int sum = 0;
-        while (sc.hasNextInt()) {
-            int number = sc.nextInt();
+        while (console.hasNextInt()) {
+            int number = console.nextInt();
             if (!exit) {
                 sum = number + sum;
              } else {
-                exit = sc.equals("ENTER");
+                exit = console.equals("ENTER");
             }
 
 
