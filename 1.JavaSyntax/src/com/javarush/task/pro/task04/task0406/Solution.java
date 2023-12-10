@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner console = new Scanner(System.in);
         while (true) {
-            String text = scan.nextLine();
+            String text = console.nextLine();
             if (text.equals("enough")) {
                 break;
             }
