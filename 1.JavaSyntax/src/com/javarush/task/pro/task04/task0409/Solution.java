@@ -8,10 +8,10 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int min = scan.nextInt();
-        while (scan.hasNextInt()) {
-            int num = scan.nextInt();
+        Scanner console = new Scanner(System.in);
+        int min = console.nextInt();
+        while (console.hasNextInt()) {
+            int num = console.nextInt();
             if (num < min) {
                 min = num;
             }
