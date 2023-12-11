@@ -8,11 +8,11 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner console = new Scanner(System.in);
         int min = Integer.MAX_VALUE;
         int secondMin = Integer.MAX_VALUE;
-        while (scan.hasNextInt()) {
-            int num = scan.nextInt();
+        while (console.hasNextInt()) {
+            int num = console.nextInt();
             if (num < min) {
                 secondMin = min;
                 min = num;
