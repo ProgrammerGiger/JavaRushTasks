@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int radius = scan.nextInt();
+        Scanner console = new Scanner(System.in);
+        int radius = console.nextInt();
         double pi = 3.14;
         int s = (int)(pi * radius * radius);
         System.out.println(s);
