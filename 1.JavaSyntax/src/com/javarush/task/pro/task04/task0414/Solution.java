@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String text = scan.nextLine();
-        int number = scan.nextInt();
+        Scanner console = new Scanner(System.in);
+        String text = console.nextLine();
+        int number = console.nextInt();
         int i = 0;
 
         if (number > 0 && number < 5 ) {
