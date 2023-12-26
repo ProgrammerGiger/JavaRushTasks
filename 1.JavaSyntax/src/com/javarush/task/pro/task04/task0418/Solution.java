@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         double glass = 0.5;
-        Scanner scan = new Scanner(System.in);
-        boolean text = scan.nextBoolean();
+        Scanner console = new Scanner(System.in);
+        boolean text = console.nextBoolean();
         if (text == false) {
             System.out.println((int)Math.floor(glass));
         } else if (text == true) {
