@@ -12,7 +12,13 @@ public class Solution {
     public static int element = 5;
 
     public static void main(String[] args) {
-        Arrays.sort(array);
-        Arrays.binarySearch(array,element);
+        int[] arrayCopy = array.clone();
+        Arrays.sort(arrayCopy);
+        int num = Arrays.binarySearch(arrayCopy,element);
+        boolean result = num >= 0;
+        System.out.println(result);
+
+
+
     }
 }
