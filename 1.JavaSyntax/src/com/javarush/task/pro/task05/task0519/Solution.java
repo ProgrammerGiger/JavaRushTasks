@@ -12,9 +12,9 @@ public class Solution {
     public static int element = 5;
 
     public static void main(String[] args) {
-        int[] arrayCopy = array.clone();
-        Arrays.sort(arrayCopy);
-        int num = Arrays.binarySearch(arrayCopy,element);
+        int[] clone = array.clone();
+        Arrays.sort(clone);
+        int num = Arrays.binarySearch(clone,element);
         boolean result = num >= 0;
         System.out.println(result);
 
