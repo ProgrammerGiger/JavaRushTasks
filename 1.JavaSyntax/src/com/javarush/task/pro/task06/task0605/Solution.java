@@ -15,9 +15,9 @@ public class Solution {
 
     public static void reverseArray(int[] array) {
         for (int i = 0; i < array.length / 2 ; i++) {
-            int num = array[i];
+            int number = array[i];
             array[i] = array[array.length - i - 1];
-            array[array.length - i - 1] = num;
+            array[array.length - i - 1] = number;
 
         }
 
