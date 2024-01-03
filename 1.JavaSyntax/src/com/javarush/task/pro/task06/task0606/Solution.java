@@ -14,7 +14,7 @@ public class Solution {
     public static void universalMethod(){
 
     }
-    public static void universalMethod(int num) {
+    public static void universalMethod(int number) {
 
     }
     public static void universalMethod(String str) {
