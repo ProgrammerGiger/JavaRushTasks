@@ -17,8 +17,8 @@ public class Solution {
 
     }
 
-    public static long ninthDegree(long b) {
-       return cube(cube(b));
+    public static long ninthDegree(long lo) {
+       return cube(cube(lo));
 
 
     }
