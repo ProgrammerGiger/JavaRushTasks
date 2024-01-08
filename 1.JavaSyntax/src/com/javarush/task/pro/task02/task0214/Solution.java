@@ -9,10 +9,10 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-        Scanner console = new Scanner(System.in);
-        String text = console.nextLine();
-        String text2 = console.nextLine();
-        String text3 = console.nextLine();
+        Scanner scan = new Scanner(System.in);
+        String text = scan.nextLine();
+        String text2 = scan.nextLine();
+        String text3 = scan.nextLine();
 
         System.out.println(text3);
         System.out.println(text2.toUpperCase());
