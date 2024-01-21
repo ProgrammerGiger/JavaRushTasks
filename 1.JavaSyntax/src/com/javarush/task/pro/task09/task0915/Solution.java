@@ -15,7 +15,13 @@ public class Solution {
     }
 
     public static String[] getTokens(String query, String delimiter) {
-        //напишите тут ваш код
-        return null;
+        StringTokenizer stringTokenizer = new StringTokenizer(query,delimiter);
+        int count = stringTokenizer.countTokens();
+        String[] result = new String[count];
+        for (int i = 0; i < count; i++) {
+            result[i] = stringTokenizer.nextToken();
+
+        }
+        return result;
     }
 }
